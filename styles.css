@@ -1,18 +1,18 @@
-/* Reset some default browser styles */
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+    overflow: false;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light gray text for readability */
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background: #00A19B; /* Accent color for the header */
+    background: #00A19B;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -45,13 +45,13 @@ main img {
     height: auto;
     border-radius: 10px;
     margin: 2rem 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Shadow effect for image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #1E1E1E; /* Slightly lighter than the main background */
+    background: #1E1E1E;
     color: #e0e0e0;
     position: relative;
     top: 100vh;
@@ -59,23 +59,22 @@ footer {
     border-top: 2px solid #00A19B;
 }
 
-/* Section styling for better readability */
 section {
-    max-width: 800px; /* Restrict the width of content */
-    margin: 2rem auto; /* Center the section horizontally */
-    padding: 1.5rem; /* Add padding for breathing room */
-    background-color: #1E1E1E; /* Slightly lighter background for better contrast */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 section h2 {
-    color: #00A19B; /* Accent color for headings */
-    margin-bottom: 1rem; /* Space under the heading */
+    color: #00A19B;
+    margin-bottom: 1rem;
 }
 
 section p {
-    word-wrap: break-word; /* Forces words to break if they're too long */
-    line-height: 1.8; /* More space between lines */
-    color: #e0e0e0; /* Light gray text for readability */
+    word-wrap: break-word;
+    line-height: 1.8;
+    color: #e0e0e0;
 }
